@@ -1,0 +1,9 @@
+$data = {
+    "DeviceName":"Router1",
+    "processID":1,
+    "processName":"DHCP",
+    "description":"DHCP offer package drop",
+    "timeWindow": "0010-0020",
+    "numberOfOccurrence":2
+    }
+Invoke-WebRequest -UseBasicParsing https://foo.com/bar -ContentType "application/json" -Method Post -Body $data
