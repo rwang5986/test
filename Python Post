@@ -1,0 +1,16 @@
+import requests
+import json
+
+data = {
+    "DeviceName":"Router1",
+    "processID":1,
+    "processName":"DHCP",
+    "description":"DHCP offer package drop",
+    "timeWindow": "0010-0020",
+    "numberOfOccurrence":2
+    }
+
+target_url = "https://foo.com/bar"
+headers = {'Content-Type': 'application/json'}
+
+requests.post(url = target_url, headers = headers, data=json.dumps(data))
