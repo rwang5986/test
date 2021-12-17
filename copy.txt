@@ -1,0 +1,189 @@
+Test branch new
+New test
+Last login: Tue Dec 14 17:44:01 on ttys000
+hwang@Haos-iMac ~ % brew goland
+Error: Unknown command: goland
+hwang@Haos-iMac ~ % brew install goland
+Running `brew update --preinstall`...
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+abi-compliance-checker     gotify                     pip-audit
+abi-dumper                 imap-backup                pocsuite3
+biber                      isa-l                      rpki-client
+brigade-cli                jsonschema                 salt-lint
+djhtml                     kubernetes-cli@1.22        sevenzip
+dynomite                   lua-language-server        statix
+fastfec                    mist                       tsduck
+fastp                      mt32emu                    vtable-dumper
+goawk                      pam-reattach
+goplus                     payload-dumper-go
+==> Updated Formulae
+Updated 969 formulae.
+==> Deleted Formulae
+ape             es              jerasure        magnetix        srmio
+balance         eventlog        kakasi          makepp          svdlibc
+bbcolors        flasm           l-smash         marst           swiftplate
+colorsvn        fondu           libbind         mboxgrep        torrentcheck
+contacts        gconf           liberasurecode  md              udns
+csv-fix         gcore           libmill         namazu          whitedb
+dnsrend         gf-complete     libopendkim     postmark        xidel
+drip            git-sh          libpuzzle       redsocks        xtail
+dshb            henplus         libvbucket      sdhash          zdelta
+eject           httptunnel      m2c             shorten
+
+==> Tapping homebrew/cask
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask'...
+remote: Enumerating objects: 610012, done.
+remote: Counting objects: 100% (152/152), done.
+remote: Compressing objects: 100% (77/77), done.
+remote: Total 610012 (delta 87), reused 135 (delta 75), pack-reused 609860
+Receiving objects: 100% (610012/610012), 274.94 MiB | 16.25 MiB/s, done.
+Resolving deltas: 100% (431328/431328), done.
+Tapped 3935 casks (4,015 files, 294.5MB).
+==> Downloading https://download.jetbrains.com/go/goland-2021.3.dmg
+==> Downloading from https://download-cdn.jetbrains.com/go/goland-2021.3.dmg
+######################################################################## 100.0%
+==> Installing Cask goland
+==> Moving App 'GoLand.app' to '/Applications/GoLand.app'
+🍺  goland was successfully installed!
+hwang@Haos-iMac ~ % brew install git
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:0e93b5264879cd5ece6efb644fd6320b0b96cce36de3901c1926e53f851d14c7
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:0e93b5264879cd5ece6efb644fd6320b0b96cce36de3901c1926e53f851d14c7?se=2021-12-16
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.39
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:07b546fdbe6af636fc750abb0104fecd998bc6f40899a75229f89b49f96c1e3b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:07b546fdbe6af636fc750abb0104fecd998bc6f40899a75229f89b49f96c1e3b?se=2021-12-16
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.34.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:1f7578af2644763726a248a0fab2845beab697c7b5b7a8d65716a1bccc450cd6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1f7578af2644763726a248a0fab2845beab697c7b5b7a8d65716a1bccc450cd6?se=2021-12-16
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext--0.21.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 20.2MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.39.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.39: 230 files, 6.2MB
+==> Installing git
+==> Pouring git--2.34.1.monterey.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.34.1: 1,513 files, 42.7MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+hwang@Haos-iMac ~ % ls
+Applications			Downloads			Music				Public
+Desktop				Library				OneDrive			Virtual Machines.localized
+Documents			Movies				Pictures			learning
+hwang@Haos-iMac ~ % mkdir Project
+hwang@Haos-iMac ~ % cd P
+cd: no such file or directory: P
+hwang@Haos-iMac ~ % cd Project
+hwang@Haos-iMac Project % ls
+hwang@Haos-iMac Project % ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/hwang/.ssh/id_rsa): 
+Created directory '/Users/hwang/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/hwang/.ssh/id_rsa
+Your public key has been saved in /Users/hwang/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:rbUSeP5rg/Oeqr4zs57zTyDeD94Pcs6P4Yh5oLOdFFo hwang@Haos-iMac.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|                 |
+|       . .       |
+|      E S o      |
+|     +.* = .     |
+|    ..o.B.*      |
+|    oo=*+#o=     |
+|    .=%@=B#=o    |
++----[SHA256]-----+
+hwang@Haos-iMac Project % 
+hwang@Haos-iMac Project % 
+hwang@Haos-iMac Project % 
+hwang@Haos-iMac Project % cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDSiLfrNnrToXfSFZo06BmxoxENOWhExOMeHMoJDag1CJujk0++X3NuB2Gz9F9LHXQ97axElEboIGDURWHuz5X5qhH4CVDrNCyawMwP9dZg/JrHJSxBdRhTjqje1aSm9LwDKXUFTz67mIaeUG40GW/Oi3WjsS7P4KThs8tDTns1H6podL2a4svLxo8mieTYfybVrtPwQhf5yMT4rzggwNGvDGk7V8emG0zDrFAV1VZPlr2YHcJ4CodL34MEZftMnjRzWNDZPghUvq+b+zd+mqfoUcjLJ1OeLM/8x0zl8Uyo4LCG9gKFwWPC+t+2p04V90JEwRzJxbzG0S+r6SjvaatJExqQkVGpPZst427+HRWOMAQ5o5NEibS0UaeOimUb+wTObtQ8XullydKdIuZaSvWqaTIVnQuYLSl+H6LmbJ0YdYQT0SG0dnWUcRKUGmZ37rj3s8xF+H4iFH7eZsx26qUZ1J5V8OlUv8/QYNbzIMHTrswZbLwb4fB51ZC3XPdqsU0= hwang@Haos-iMac.local
+hwang@Haos-iMac Project % git --config --help 
+unknown option: --config
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+hwang@Haos-iMac Project % git --config user.email=rick.wang@rightcapital.com   
+unknown option: --config
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+hwang@Haos-iMac Project % git config user.email=rick.wang@rightcapital.com  
+hwang@Haos-iMac Project % git config user.name=rick Wang              
+fatal: not in a git directory
+hwang@Haos-iMac Project % git config user.name=rick Wang
+fatal: not in a git directory
+hwang@Haos-iMac Project % git config user.name=rick.wang
+hwang@Haos-iMac Project % git clone git@gitlab.rightcapital.io:it/it-as-code.git
+Cloning into 'it-as-code'...
+The authenticity of host 'gitlab.rightcapital.io (18.189.45.77)' can't be established.
+ED25519 key fingerprint is SHA256:McsS5OxDLf12J0KlEA/5qXvACNo7H/W+cAvSpFNnUdk.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+hwang@Haos-iMac Project % git clone git@gitlab.rightcapital.io:it/it-as-code.git
+Cloning into 'it-as-code'...
+The authenticity of host 'gitlab.rightcapital.io (18.189.45.77)' can't be established.
+ED25519 key fingerprint is SHA256:McsS5OxDLf12J0KlEA/5qXvACNo7H/W+cAvSpFNnUdk.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'gitlab.rightcapital.io' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 731, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 731 (delta 0), reused 0 (delta 0), pack-reused 727
+Receiving objects: 100% (731/731), 11.18 MiB | 4.54 MiB/s, done.
+Resolving deltas: 100% (423/423), done.
+hwang@Haos-iMac Project % ls
+it-as-code
+hwang@Haos-iMac Project % cd it-as-code 
+hwang@Haos-iMac it-as-code % ls
+README.md		app_retail_site.tf	main.tf			terraform.d		users_datasurce.tf
+app_admin_center.tf	applications		modules			users_beijing.tf	users_shelton.tf
+hwang@Haos-iMac it-as-code % goland . 
+zsh: command not found: goland
+hwang@Haos-iMac it-as-code % 
