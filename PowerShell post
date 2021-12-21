@@ -1,5 +1,5 @@
 $data = {
-    "DeviceName":"Router1",
+    "DeviceName":"router2",
     "processID":1,
     "processName":"DHCP",
     "description":"DHCP offer package drop",
